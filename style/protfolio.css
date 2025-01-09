@@ -1,0 +1,287 @@
+
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px ;
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+nav ul li{
+    list-style:none;
+    margin-right: 51px;
+
+
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+
+/* Shared Style */
+
+.secondery-bg{
+    background-color: #FFF8F3 ;
+}
+
+
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.section-title{
+
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+
+
+.section-discription{
+    font-size: 18px;
+    color: #757575 ;
+
+
+
+}
+
+/* Hader */
+.header{
+    background-image: url(../images/developer.png) , url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+/* Banner  */
+
+.banner-content{
+    max-width: 580px;
+}
+
+
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+
+
+}
+
+.banner-title{
+
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+}
+
+.banner-profile{
+    width: 580px;
+}
+
+/* About */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 130px;
+
+
+}
+
+.item-title{
+    margin: 5px 5px;
+}
+
+.about-itmes{
+    display: flex;
+   justify-content: space-around;
+    
+}
+   
+.item-description{
+    font-weight: 600;
+}
+
+
+
+                                                           /* Main */
+
+
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+                                                            /* Styles  */
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+
+
+}
+
+.skill{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+    padding: 30px;
+    margin-bottom: 130px;
+
+}
+
+
+                                                  /* resumi section */
+
+.resume-container{
+
+    display: flex;
+    gap: 24px;
+
+
+
+
+
+}
+
+.experiance-sub-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.resume-container, .experiance-sub-title {
+    color: #5a5555;
+
+}
+
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color:#474747 ;
+    padding: 10px;
+}
+.experience-description{
+    color: rgb(30, 76, 175);
+}
+
+.resume-collam-title{
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+}
+
+
+.resumi-download-cv{
+    margin-top: 50px;
+}
+
+
+                                                       /* footer */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+   
+}
+
+.footer-collam{
+    width: 50%;
+
+}
+
+footer [type="text"], footer input[type="email"], footer textarea {
+
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10xp 20px ;
+    margin-bottom: 24px;
+    border: none;
+
+
+
+}
+
+
+
+
+
+
